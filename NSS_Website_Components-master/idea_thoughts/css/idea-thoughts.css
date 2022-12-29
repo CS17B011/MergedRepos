@@ -1,0 +1,81 @@
+.img-thoughts {
+    background-color: #00d7e1 !important;
+}
+
+.single-blog {
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.single-blog:hover {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.5);
+}
+
+.single-blog img {
+    width: 100%;
+    height: 200px;
+}
+
+.blog-meta {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.single-blog span {
+    float: right;
+    font-size: 12px;
+    color: cornflowerblue;
+}
+
+.blog-text {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.single-blog h2 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    align-items: flex-end;; /* Aligns it at the bottom */
+}
+
+.single-blog h2 a {
+    text-decoration: none;
+}
+
+.read-more-btn {
+    background-image: linear-gradient(to right, darkblue, lightblue);
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fff;
+    border: none !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.read-more-btn:hover {
+    background-image: linear-gradient(to left, darkgreen, lightgreen);
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.controls-down {
+    margin-left: 45%;
+}
+
+.controls-down a {
+    padding: 10px;
+    align-content: center;
+}
